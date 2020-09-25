@@ -107,6 +107,7 @@ html[data-theme="light"] {
 
 ol, ul {
     margin-left: 30px !important;
+    margin-top: 100px
 }
 
 /* Progress bar */
@@ -163,22 +164,22 @@ blockquote {
 
  /* width */
  ::-webkit-scrollbar {
-    width: 10px;
+    width: 25px;
  }
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background:  rgb(28, 28, 30);;
+    background:  white;
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #212529;
+    background: #f5dcb5;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #333;
+    background: #f0e1e1;
   }
 
 h1, h2, h3, h4, h5, h6 {
@@ -487,9 +488,10 @@ header {
 
 /* jumbotron */
 .jumbotron {
-    background-color: #f7f3e4 !important;
-    background-attachment: fixed;
-    background-size: auto;
+    background-color: var(--main-background-color) !important;	    
+    background-image: url(/assets/img/main_image.png);
+    background-size: cover;
+    background-repeat : no-repeat;
     background-position: center;
 }
 /* pagination */

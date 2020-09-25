@@ -5,4 +5,29 @@
 
 @import "devlopr";
 
+
 /* custom css goes below */
+.blog-card {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 100px !important;
+        margin-bottom: 30px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 5px 5px 10px grey;
+    }
+
+    li {
+        margin-top: 20px !important;
+    }
+}
