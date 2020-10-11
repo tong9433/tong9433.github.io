@@ -57,11 +57,11 @@ Window 10에서 github 블로그 구축 환경을 포스팅해보려고 합니�
 
 ###  jekyll를 간단하게 이해해보자
 
-jekyll은 정적 웹사이트 생성기에요. 정적? 동적?  쉽게 이해해보면 동적 웹 사이트는 서버와 사용자간에 끊임없이 데이터를 주고 받는 사이트죠. 예를 들면 쿠팡같은 쇼핑몰 사이트는 장바구니, 구매과정에서 서버와 데이터를 주고 받죠. 이러한 사이트를 **Dynamic Web Site**라고 합니다.
+jekyll은 정적 웹사이트 생성기에요. 정적? 동적?  쉽게 이해해보면 동적 웹 사이트는 서버와 사용자간에 끊임없이 데이터를 주고 받는 사이트죠. 예를 들면 쿠팡이나 네이버쇼핑 같은 쇼핑몰 사이트는 장바구니, 구매과정에서 서버와 데이터를 주고 받죠. 이러한 사이트를 **Dynamic Web Site**라고 합니다.
 
 하지만 우리가 만들고자 하는 Blog는 이런 과정이 굳이 필요할까요?ㅎㅎ
 
-블로그를 만드는 저희는 블로그 포스팅에 관한 파일을 미리 웹서버에 올려놓고, 유저들은 해당 포스팅만 보면 되겠죠. 이러한 사이트를 **Static Web Site**라고 합니다.
+블로그를 만드는 저희들은 블로그 포스팅에 관한 파일을 미리 웹서버에 올려놓고, 유저들은 해당 포스팅만 보면 되겠습니다. 이러한 사이트를 **Static Web Site**라고 합니다.
 
 ![image-20200919153615872](/assets/img/blog/image-20200919153615872.png)
 
@@ -81,7 +81,7 @@ Jeykyll은 Web Backend가 `Ruby on Rails`로 구현되어 있기 때문에 Ruby 
 
   * 설치 사이트 : [https://rubyinstaller.org/downloads/](https://rubyinstaller.org/downloads/)
 
-  본인의 윈도우 환경에 맞춰 위 사이트를 방문한 후 `Ruby+Devkit 2.6.6-1(x64)`를 다운로드 합시다. 이때 꼭 Devkit을 설치해야 해요.. 잘못하면 상당히 꼬입니다.
+  본인의 윈도우 환경에 맞춰 위 사이트를 방문한 후 `Ruby+Devkit 2.6.6-1(x64)`를 다운로드 합시다. 이때 꼭 Devkit을 설치해야 해요.. 잘못하면 상당히 복잡해집니다.
 
   * 설치과정
 
@@ -99,7 +99,7 @@ Jeykyll은 Web Backend가 `Ruby on Rails`로 구현되어 있기 때문에 Ruby 
 
   msys2 : 
 
-  > 윈도우 환경에서 Unix의 Terminal 환경을 제공해줍니다. 이때 MinGW는 꼭 알아야 하는 프로그램인데요. MinGW는 Minimalist GNU for Window의 약자로 우리가 Ubuntu나 unix 기반 환경에서 사용하는 오픈소스 패키지를 Window에서 실행할 수 있도록 합니다.
+  > 윈도우 환경에서 Unix의 Terminal 환경을 제공해줍니다. 이때 MinGW는 꼭 알아야 하는 프로그램입니다. MinGW는 Minimalist GNU for Window의 약자로 우리가 Ubuntu나 unix 기반 환경에서 사용하는 오픈소스 패키지를 Window에서 실행할 수 있도록 합니다.
 
 * Jekyll 설치
 
